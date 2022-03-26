@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T14:48:55.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="q7ilAPrFPkXXsyBSxqNu" version="16.6.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-03-26T14:49:57.716Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="trqpp_AdfVLRNfGbmxy-" version="16.6.8" type="github" pages="6">
   <diagram id="0ovgHpSxQsr8m6n7m_qp" name="云服务管理">
     <mxGraphModel dx="1186" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -358,13 +358,13 @@
         <mxCell id="qkXPXFVAEm8tJPC33M0G-17" value="服务器 | 虚拟机" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" vertex="1" parent="Ip1h_7o2QWxKlOyEIIWu-1">
           <mxGeometry y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qkXPXFVAEm8tJPC33M0G-18" value="操作系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" vertex="1" parent="Ip1h_7o2QWxKlOyEIIWu-1">
+        <mxCell id="qkXPXFVAEm8tJPC33M0G-18" value="操作系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Ip1h_7o2QWxKlOyEIIWu-1">
           <mxGeometry y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qkXPXFVAEm8tJPC33M0G-19" value="数据库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" vertex="1" parent="Ip1h_7o2QWxKlOyEIIWu-1">
+        <mxCell id="qkXPXFVAEm8tJPC33M0G-19" value="数据库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Ip1h_7o2QWxKlOyEIIWu-1">
           <mxGeometry y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qkXPXFVAEm8tJPC33M0G-20" value="中间件 &amp;amp; 运行库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" vertex="1" parent="Ip1h_7o2QWxKlOyEIIWu-1">
+        <mxCell id="qkXPXFVAEm8tJPC33M0G-20" value="中间件 &amp;amp; 运行库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Ip1h_7o2QWxKlOyEIIWu-1">
           <mxGeometry y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qkXPXFVAEm8tJPC33M0G-21" value="应用软件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" vertex="1" parent="Ip1h_7o2QWxKlOyEIIWu-1">
