@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T10:12:59.157Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="DscVeiqy7DMLJUCsq6MX" version="16.6.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-26T13:52:26.743Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="hmAAXC5C7sOEFs4rOsQ3" version="16.6.8" type="github" pages="4">
   <diagram id="0ovgHpSxQsr8m6n7m_qp" name="云服务管理">
     <mxGraphModel dx="1186" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,6 +199,122 @@
         </mxCell>
         <mxCell id="7UGiJdad2ZVJS54bBzst-10" value="人工智能云" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="qP9Cj4mbjG0eb6aXyCRd-1">
           <mxGeometry x="510" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GzHFB-rlf9t_C0pu01WD" name="云计算3种服务模式">
+    <mxGraphModel dx="1186" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="jmKsW2vWubilHeC516sa-0" />
+        <mxCell id="jmKsW2vWubilHeC516sa-1" parent="jmKsW2vWubilHeC516sa-0" />
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="jmKsW2vWubilHeC516sa-1">
+          <mxGeometry x="20" y="60" width="760" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-4" value="IaaS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="jmKsW2vWubilHeC516sa-1">
+          <mxGeometry x="140" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-6" value="PaaS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="jmKsW2vWubilHeC516sa-1">
+          <mxGeometry x="384" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-7" value="SaaS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="jmKsW2vWubilHeC516sa-1">
+          <mxGeometry x="620" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-15" value="" style="group" vertex="1" connectable="0" parent="jmKsW2vWubilHeC516sa-1">
+          <mxGeometry x="110" y="160" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-2" value="机房基础设施" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-15">
+          <mxGeometry y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-8" value="计算机网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-15">
+          <mxGeometry y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-9" value="磁盘柜" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-15">
+          <mxGeometry y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-10" value="服务器 | 虚拟机" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-15">
+          <mxGeometry y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-11" value="操作系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-15">
+          <mxGeometry y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-12" value="数据库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-15">
+          <mxGeometry y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-13" value="中间件 &amp;amp; 运行库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-15">
+          <mxGeometry y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-14" value="应用软件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-15">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-16" value="" style="group" vertex="1" connectable="0" parent="jmKsW2vWubilHeC516sa-1">
+          <mxGeometry x="354" y="160" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-17" value="机房基础设施" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-16">
+          <mxGeometry y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-18" value="计算机网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-16">
+          <mxGeometry y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-19" value="磁盘柜" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-16">
+          <mxGeometry y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-20" value="服务器 | 虚拟机" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-16">
+          <mxGeometry y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-21" value="操作系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-16">
+          <mxGeometry y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-22" value="数据库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-16">
+          <mxGeometry y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-23" value="中间件 &amp;amp; 运行库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-16">
+          <mxGeometry y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-24" value="应用软件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-16">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-25" value="" style="group" vertex="1" connectable="0" parent="jmKsW2vWubilHeC516sa-1">
+          <mxGeometry x="590" y="160" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-26" value="机房基础设施" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-25">
+          <mxGeometry y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-27" value="计算机网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-25">
+          <mxGeometry y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-28" value="磁盘柜" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-25">
+          <mxGeometry y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-29" value="服务器 | 虚拟机" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-25">
+          <mxGeometry y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-30" value="操作系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-25">
+          <mxGeometry y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-31" value="数据库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-25">
+          <mxGeometry y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-32" value="中间件 &amp;amp; 运行库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-25">
+          <mxGeometry y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-33" value="应用软件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="53iyC9EfAxBpRlIZIN5F-25">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-34" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=20;fillColor=#CCCCCC;size=0.5;fontColor=#00CC00;" vertex="1" parent="jmKsW2vWubilHeC516sa-1">
+          <mxGeometry x="240" y="415" width="20" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-36" value="厂&lt;br style=&quot;font-size: 15px;&quot;&gt;商&lt;br style=&quot;font-size: 15px;&quot;&gt;管&lt;br style=&quot;font-size: 15px;&quot;&gt;理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="jmKsW2vWubilHeC516sa-1">
+          <mxGeometry x="260" y="450" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-37" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=15;fontColor=#00CC00;fillColor=#CCCCCC;" vertex="1" parent="jmKsW2vWubilHeC516sa-1">
+          <mxGeometry x="80" y="170" width="20" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-38" value="用&lt;br&gt;户&lt;br&gt;管&lt;br&gt;理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;" vertex="1" parent="jmKsW2vWubilHeC516sa-1">
+          <mxGeometry x="30" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-45" value="云计算的三种服务模式" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="jmKsW2vWubilHeC516sa-1">
+          <mxGeometry x="264" y="640" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
