@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T13:52:26.743Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="hmAAXC5C7sOEFs4rOsQ3" version="16.6.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-26T13:53:03.848Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="9Kf2ueKIjhpQ6yQatO3z" version="16.6.8" type="github" pages="4">
   <diagram id="0ovgHpSxQsr8m6n7m_qp" name="云服务管理">
     <mxGraphModel dx="1186" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -209,7 +209,7 @@
         <mxCell id="jmKsW2vWubilHeC516sa-0" />
         <mxCell id="jmKsW2vWubilHeC516sa-1" parent="jmKsW2vWubilHeC516sa-0" />
         <mxCell id="53iyC9EfAxBpRlIZIN5F-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="jmKsW2vWubilHeC516sa-1">
-          <mxGeometry x="20" y="60" width="760" height="620" as="geometry" />
+          <mxGeometry x="20" y="60" width="760" height="650" as="geometry" />
         </mxCell>
         <mxCell id="53iyC9EfAxBpRlIZIN5F-4" value="IaaS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="jmKsW2vWubilHeC516sa-1">
           <mxGeometry x="140" y="90" width="60" height="30" as="geometry" />
@@ -313,8 +313,8 @@
         <mxCell id="53iyC9EfAxBpRlIZIN5F-38" value="用&lt;br&gt;户&lt;br&gt;管&lt;br&gt;理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;" vertex="1" parent="jmKsW2vWubilHeC516sa-1">
           <mxGeometry x="30" y="240" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="53iyC9EfAxBpRlIZIN5F-45" value="云计算的三种服务模式" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="jmKsW2vWubilHeC516sa-1">
-          <mxGeometry x="264" y="640" width="300" height="30" as="geometry" />
+        <mxCell id="53iyC9EfAxBpRlIZIN5F-45" value="云计算的三种服务模式" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="jmKsW2vWubilHeC516sa-1">
+          <mxGeometry x="264" y="652" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
