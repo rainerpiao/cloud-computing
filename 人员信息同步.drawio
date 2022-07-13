@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-13T09:00:33.149Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ccNJLW_a1RLRMXR34oie" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-13T09:03:52.475Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="BQADSb5rpe2JgNXgQFZD" version="17.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="员工hrms同步流程">
     <mxGraphModel dx="1186" dy="739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,7 +72,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9_jM3iiqcL8lOvuprvXK-1" value="从EMP_INFO_SYNC表取sync_status = &#39;N&#39; &lt;br&gt;且 source_sys_code = ‘hrms’的数据按入库时间先后进行处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="260" width="430" height="60" as="geometry" />
+          <mxGeometry x="160" y="238" width="430" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9_jM3iiqcL8lOvuprvXK-4" value="不存在且在职" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9_jM3iiqcL8lOvuprvXK-3" target="WIyWlLk6GJQsqaUBKTNV-7">
           <mxGeometry relative="1" as="geometry" />
