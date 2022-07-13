@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-13T08:50:39.445Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4NP1dvlk69HWg3yNNnen" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-13T09:00:07.178Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7RQKrCTbMfiPbykzEiWB" version="17.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="员工hrms同步流程">
     <mxGraphModel dx="1186" dy="739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,6 +28,11 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="根据emp_id判断&lt;br&gt;是否在user_info表存在该用户，&lt;br&gt;且data_sourece=1" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="92" y="375" width="206" height="121" as="geometry" />
         </mxCell>
+        <mxCell id="9_jM3iiqcL8lOvuprvXK-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" target="9_jM3iiqcL8lOvuprvXK-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="824" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="新增user_info表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="490" y="645" width="120" height="40" as="geometry" />
         </mxCell>
@@ -52,13 +57,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="租户是否一致" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="145" y="545" width="100" height="80" as="geometry" />
+          <mxGeometry x="145" y="563" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="锁定该empId其他租户的账号" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="340" y="730" width="120" height="40" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="锁定该empId其他租户的账号：同一账号只允许一个租户" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="135" y="847" width="120" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="更新user_info表：&lt;br&gt;1、只更新未锁定人员&lt;br&gt;2、empStatus为1或者5则更新为锁定状态&lt;br&gt;3、empStatus为0则为在职" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="316.5" y="527" width="167" height="116" as="geometry" />
+        <mxCell id="9_jM3iiqcL8lOvuprvXK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-12" target="9_jM3iiqcL8lOvuprvXK-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="更新user_info表未锁定人员：&lt;br&gt;1、empStatus为1或者5则更新为锁定状态&lt;br&gt;2、empStatus为0则为在职" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="309" y="545" width="167" height="116" as="geometry" />
         </mxCell>
         <mxCell id="9_jM3iiqcL8lOvuprvXK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9_jM3iiqcL8lOvuprvXK-1" target="WIyWlLk6GJQsqaUBKTNV-6">
           <mxGeometry relative="1" as="geometry" />
@@ -66,7 +74,7 @@
         <mxCell id="9_jM3iiqcL8lOvuprvXK-1" value="从EMP_INFO_SYNC表取sync_status = &#39;N&#39; &lt;br&gt;且 source_sys_code = ‘hrms’的数据按入库时间先后进行处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="260" width="430" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9_jM3iiqcL8lOvuprvXK-4" value="不存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9_jM3iiqcL8lOvuprvXK-3" target="WIyWlLk6GJQsqaUBKTNV-7">
+        <mxCell id="9_jM3iiqcL8lOvuprvXK-4" value="不存在且在职" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9_jM3iiqcL8lOvuprvXK-3" target="WIyWlLk6GJQsqaUBKTNV-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9_jM3iiqcL8lOvuprvXK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9_jM3iiqcL8lOvuprvXK-3" target="9_jM3iiqcL8lOvuprvXK-5">
@@ -80,7 +88,10 @@
         <mxCell id="9_jM3iiqcL8lOvuprvXK-3" value="根据emp_no和set_code&lt;br&gt;查找是否在user_info表存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="444" y="458" width="208" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9_jM3iiqcL8lOvuprvXK-5" value="更新user_info表：&lt;br&gt;1、只更新未锁定人员&lt;br&gt;2、empStatus为1或者5则更新为锁定状态&lt;br&gt;3、empStatus为0则为在职" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="9_jM3iiqcL8lOvuprvXK-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9_jM3iiqcL8lOvuprvXK-5" target="9_jM3iiqcL8lOvuprvXK-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9_jM3iiqcL8lOvuprvXK-5" value="更新user_info表未锁定人员：&lt;br&gt;1、empStatus为1或者5则更新为锁定状态&lt;br&gt;2、empStatus为0则为在职" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="632" y="643" width="175" height="93" as="geometry" />
         </mxCell>
         <mxCell id="9_jM3iiqcL8lOvuprvXK-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9_jM3iiqcL8lOvuprvXK-9" target="WIyWlLk6GJQsqaUBKTNV-11">
@@ -91,14 +102,30 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9_jM3iiqcL8lOvuprvXK-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9_jM3iiqcL8lOvuprvXK-9" target="9_jM3iiqcL8lOvuprvXK-18">
+        <mxCell id="9_jM3iiqcL8lOvuprvXK-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-11" target="9_jM3iiqcL8lOvuprvXK-18">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9_jM3iiqcL8lOvuprvXK-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9_jM3iiqcL8lOvuprvXK-9" target="9_jM3iiqcL8lOvuprvXK-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="321" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9_jM3iiqcL8lOvuprvXK-29" value="离职" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9_jM3iiqcL8lOvuprvXK-28">
+          <mxGeometry x="0.0233" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9_jM3iiqcL8lOvuprvXK-9" value="当前用户是否在职" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="155" y="710" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="9_jM3iiqcL8lOvuprvXK-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9_jM3iiqcL8lOvuprvXK-18" target="9_jM3iiqcL8lOvuprvXK-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9_jM3iiqcL8lOvuprvXK-18" value="&lt;span&gt;新增user_info表&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="135" y="840" width="120" height="60" as="geometry" />
+          <mxGeometry x="135" y="938" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9_jM3iiqcL8lOvuprvXK-22" value="&lt;span&gt;EMP_INFO_SYNC表更新sync_status = &#39;S&#39;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="375" y="831" width="154" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
