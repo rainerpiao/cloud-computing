@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T09:54:23.737Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="lgrUN67qR_xPRcS1xSAt" version="17.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-15T10:07:36.036Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Jv0Tma4ZDRJsXDqgVHfB" version="17.2.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="员工hrms同步流程">
     <mxGraphModel dx="1581" dy="1031" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -212,7 +212,7 @@
         <mxCell id="BD5CT0v6Qr62cVYvKzIK-1" value="用户状态已上号&lt;br&gt;更新user_extend_info表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="184" y="559" width="141" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BD5CT0v6Qr62cVYvKzIK-6" value="更新user_info表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="BD5CT0v6Qr62cVYvKzIK-6" value="更新user_info表&lt;br&gt;更新用户user_level=1为正式员工" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="184" y="672" width="141" height="60" as="geometry" />
         </mxCell>
       </root>
