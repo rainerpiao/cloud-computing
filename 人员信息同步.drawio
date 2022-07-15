@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T10:07:36.036Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Jv0Tma4ZDRJsXDqgVHfB" version="17.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-15T10:08:35.362Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Le_ZJGEtNkLXJH1sJ9fA" version="17.2.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="员工hrms同步流程">
     <mxGraphModel dx="1581" dy="1031" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -201,7 +201,7 @@
           <mxGeometry x="531.5" y="510" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t5glH-LRRXoYykGPP1tD-1" value="&lt;span&gt;EMP_INFO_SYNC表更新sync_status = &#39;S&#39;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="771" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="692" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BD5CT0v6Qr62cVYvKzIK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;" edge="1" parent="1" source="BD5CT0v6Qr62cVYvKzIK-6" target="t5glH-LRRXoYykGPP1tD-1">
           <mxGeometry relative="1" as="geometry" />
@@ -210,10 +210,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BD5CT0v6Qr62cVYvKzIK-1" value="用户状态已上号&lt;br&gt;更新user_extend_info表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="184" y="559" width="141" height="60" as="geometry" />
+          <mxGeometry x="184" y="521" width="141" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BD5CT0v6Qr62cVYvKzIK-6" value="更新user_info表&lt;br&gt;更新用户user_level=1为正式员工" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="184" y="672" width="141" height="60" as="geometry" />
+          <mxGeometry x="184" y="630" width="141" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qxbFrEnca6bVzSfY-Lsn-1" value="&lt;h1&gt;job&lt;/h1&gt;&lt;p&gt;1、EmpInfoSyncJob 同步综拓cdm数据(QH093\QH094\QH095\QH097)&lt;/p&gt;&lt;span style=&quot;font-size: 11px ; text-align: center ; background-color: rgb(255 , 255 , 255)&quot;&gt;2、StaffInfoSyncJob 同步hrms内勤用户数据（&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;QH001\QH003\QH004）&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="618" y="112" width="190" height="154" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
