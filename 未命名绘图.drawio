@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T09:18:55.571Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="h-F5o712-8r-Zt59pZFT" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-08T09:56:09.851Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="SOMxf4GrI1gYsbS8yQz3" version="20.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="域账号登录流程">
     <mxGraphModel dx="1186" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -225,6 +225,9 @@
         </mxCell>
         <mxCell id="Pwr3lfbOpaO_ZtEorQ9C-59" value="登录成功" style="ellipse;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwr3lfbOpaO_ZtEorQ9C-62" value="&lt;span style=&quot;font-family: Consolas, Menlo, Courier, monospace; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;多租户：多个UserId对应一个iasUid&lt;br&gt;智学365多端共用一个ticket。各端保持同步，按一个系统处理的&lt;br&gt;accessToken其实后面的端会导致前面的失效但是系统没有实时更新处理&lt;br&gt;token_main_info:authToken&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Menlo, Courier, monospace; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#42b983&quot;&gt;=TokenInfoDTO对象（web=1天，其他端=10天）&lt;/font&gt;&lt;br&gt;token_expires_info:authToken&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Menlo, Courier, monospace; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#42b983&quot;&gt;=accessToken（120分钟）&lt;/font&gt;&lt;br&gt;token_relation_info:iasUid&lt;/span&gt;&lt;span style=&quot;color: rgb(66, 185, 131); font-family: Consolas, Menlo, Courier, monospace; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;=Map&amp;lt;String,String&amp;gt;[{web=authToken},{html5=authToken},{mobile=authToken},{wechat=authToken}]&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="1210" width="510" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
