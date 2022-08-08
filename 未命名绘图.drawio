@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T08:55:03.776Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="VowqXEG6jGfEQ6c9KGXx" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-08T09:18:55.571Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="h-F5o712-8r-Zt59pZFT" version="20.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="域账号登录流程">
     <mxGraphModel dx="1186" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -191,14 +191,40 @@
         <mxCell id="Pwr3lfbOpaO_ZtEorQ9C-42" value="去激活" style="ellipse;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="614" y="490" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pwr3lfbOpaO_ZtEorQ9C-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Pwr3lfbOpaO_ZtEorQ9C-46" target="Pwr3lfbOpaO_ZtEorQ9C-49">
+        <mxCell id="Pwr3lfbOpaO_ZtEorQ9C-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Pwr3lfbOpaO_ZtEorQ9C-53" target="Pwr3lfbOpaO_ZtEorQ9C-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwr3lfbOpaO_ZtEorQ9C-57" value="多租户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="Pwr3lfbOpaO_ZtEorQ9C-50">
+          <mxGeometry x="-0.55" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pwr3lfbOpaO_ZtEorQ9C-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Pwr3lfbOpaO_ZtEorQ9C-46" target="Pwr3lfbOpaO_ZtEorQ9C-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Pwr3lfbOpaO_ZtEorQ9C-46" value="返回租户列表:userId、orgId、orgName" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Pwr3lfbOpaO_ZtEorQ9C-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Pwr3lfbOpaO_ZtEorQ9C-49" target="Pwr3lfbOpaO_ZtEorQ9C-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Pwr3lfbOpaO_ZtEorQ9C-49" value="选择某个租户登录" style="ellipse;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="150" y="1410" width="120" height="60" as="geometry" />
+          <mxGeometry x="150" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwr3lfbOpaO_ZtEorQ9C-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Pwr3lfbOpaO_ZtEorQ9C-51" target="Pwr3lfbOpaO_ZtEorQ9C-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwr3lfbOpaO_ZtEorQ9C-51" value="更新token主信息中的&lt;br&gt;userId" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwr3lfbOpaO_ZtEorQ9C-60" value="单租户" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Pwr3lfbOpaO_ZtEorQ9C-53" target="Pwr3lfbOpaO_ZtEorQ9C-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwr3lfbOpaO_ZtEorQ9C-53" value="是否多租户" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="1380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pwr3lfbOpaO_ZtEorQ9C-59" value="登录成功" style="ellipse;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
