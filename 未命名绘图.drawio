@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-02T10:26:59.884Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="nSj_2XbgWxQa6bOMBGJ9" version="21.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-02T10:28:48.421Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ERg2f73PtXHtnvVYGssT" version="21.1.2" type="github" pages="2">
   <diagram name="微服务前" id="_a4S-tATns31d3K14dym">
     <mxGraphModel dx="1194" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
         <mxCell id="UaQl-jpzuBdEdr0FgFXi-0" />
         <mxCell id="UaQl-jpzuBdEdr0FgFXi-1" parent="UaQl-jpzuBdEdr0FgFXi-0" />
         <mxCell id="UaQl-jpzuBdEdr0FgFXi-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="UaQl-jpzuBdEdr0FgFXi-1">
-          <mxGeometry x="20" y="35" width="790" height="90" as="geometry" />
+          <mxGeometry x="35" y="35" width="758" height="90" as="geometry" />
         </mxCell>
         <mxCell id="UaQl-jpzuBdEdr0FgFXi-3" value="APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UaQl-jpzuBdEdr0FgFXi-1">
           <mxGeometry x="70" y="50" width="120" height="60" as="geometry" />
@@ -113,13 +113,13 @@
           <mxGeometry x="620" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UaQl-jpzuBdEdr0FgFXi-7" value="Nginx集群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="UaQl-jpzuBdEdr0FgFXi-1">
-          <mxGeometry x="20" y="215" width="790" height="90" as="geometry" />
+          <mxGeometry x="32" y="215" width="766" height="90" as="geometry" />
         </mxCell>
         <mxCell id="UaQl-jpzuBdEdr0FgFXi-8" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="UaQl-jpzuBdEdr0FgFXi-1">
           <mxGeometry x="370" y="135" width="60" height="75" as="geometry" />
         </mxCell>
         <mxCell id="UaQl-jpzuBdEdr0FgFXi-9" value="鉴权+网关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="UaQl-jpzuBdEdr0FgFXi-1">
-          <mxGeometry x="20" y="400" width="790" height="90" as="geometry" />
+          <mxGeometry x="31" y="400" width="767" height="90" as="geometry" />
         </mxCell>
         <mxCell id="UaQl-jpzuBdEdr0FgFXi-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="UaQl-jpzuBdEdr0FgFXi-1" source="UaQl-jpzuBdEdr0FgFXi-14" target="UaQl-jpzuBdEdr0FgFXi-20">
           <mxGeometry relative="1" as="geometry" />
@@ -153,10 +153,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UaQl-jpzuBdEdr0FgFXi-19" value="消息中间件&lt;br&gt;RocketMQ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" vertex="1" parent="UaQl-jpzuBdEdr0FgFXi-1">
-          <mxGeometry x="670" y="560.25" width="140" height="230" as="geometry" />
+          <mxGeometry x="670" y="560.25" width="121" height="230" as="geometry" />
         </mxCell>
         <mxCell id="UaQl-jpzuBdEdr0FgFXi-20" value="配置注册中心&lt;br&gt;Nacos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" vertex="1" parent="UaQl-jpzuBdEdr0FgFXi-1">
-          <mxGeometry x="20" y="560.25" width="140" height="230" as="geometry" />
+          <mxGeometry x="31" y="560.25" width="124" height="230" as="geometry" />
         </mxCell>
         <mxCell id="UaQl-jpzuBdEdr0FgFXi-21" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="UaQl-jpzuBdEdr0FgFXi-1">
           <mxGeometry x="374" y="320" width="60" height="75" as="geometry" />
@@ -165,7 +165,7 @@
           <mxGeometry x="374" y="495" width="60" height="75" as="geometry" />
         </mxCell>
         <mxCell id="UaQl-jpzuBdEdr0FgFXi-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="UaQl-jpzuBdEdr0FgFXi-1">
-          <mxGeometry x="14" y="880" width="796" height="110" as="geometry" />
+          <mxGeometry x="25" y="880" width="764" height="110" as="geometry" />
         </mxCell>
         <mxCell id="UaQl-jpzuBdEdr0FgFXi-24" value="Mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UaQl-jpzuBdEdr0FgFXi-1">
           <mxGeometry x="80" y="920" width="120" height="60" as="geometry" />
