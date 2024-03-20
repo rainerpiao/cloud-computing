@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T09:25:20.146Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="wRLqu5MDSs8NmhPa3Kk4" version="24.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-20T09:27:29.337Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="73iitOV4GDvOJpOrCkxc" version="24.0.7" type="github" pages="2">
   <diagram name="客户号查询" id="C5rFHaonQaUm8R1daILY">
     <mxGraphModel dx="1194" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,125 +27,51 @@
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-7" value="直接通过客户号列表+渠道查询客户关系表&lt;div&gt;M_ECIF_CUSTOMER_RELATIONSHIP&lt;br&gt;&lt;div&gt;，得到1级关系,按更新时间倒序&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="285" y="340" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="0gbHEz_NFwT0j6BnbrYF-38">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="695" y="350" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-40" value="循环主客户号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0gbHEz_NFwT0j6BnbrYF-39">
-          <mxGeometry x="-0.25" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="0gbHEz_NFwT0j6BnbrYF-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="125" y="600" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-18" value="不存在&lt;div&gt;则更新客户信息&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0gbHEz_NFwT0j6BnbrYF-17">
-          <mxGeometry x="-0.3333" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="0gbHEz_NFwT0j6BnbrYF-19">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="165" y="560" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-21" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0gbHEz_NFwT0j6BnbrYF-20">
-          <mxGeometry x="-0.1111" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0gbHEz_NFwT0j6BnbrYF-16" target="0gbHEz_NFwT0j6BnbrYF-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-16" value="查询客户主客户号&lt;div&gt;customer_ecif_no_relationship&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="720" width="190" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0gbHEz_NFwT0j6BnbrYF-19" target="0gbHEz_NFwT0j6BnbrYF-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-52" value="循环初始化客户最新信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0gbHEz_NFwT0j6BnbrYF-51">
-          <mxGeometry x="-0.3608" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-19" value="根据关系表原始数据&lt;div&gt;组装客户1级关系网数据&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="52.5" y="390" width="155" height="60" as="geometry" />
+          <mxGeometry x="290" y="740" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0gbHEz_NFwT0j6BnbrYF-22" target="0gbHEz_NFwT0j6BnbrYF-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-22" value="根据主客户号查询客户最新信息&lt;div&gt;CUSTOMER_BASE_INFO_SNAPSHOT&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="830" width="230" height="60" as="geometry" />
+          <mxGeometry x="277.5" y="870" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0gbHEz_NFwT0j6BnbrYF-28" target="0gbHEz_NFwT0j6BnbrYF-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-28" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;重置客户号+客户5项最新信息&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="950" width="210" height="60" as="geometry" />
+          <mxGeometry x="287.5" y="990" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-31" value="完成" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="85" y="1070" width="80" height="80" as="geometry" />
+          <mxGeometry x="650" y="980" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-36" value="1、支持查询客户号关联的所有子客户号&lt;div&gt;2、客户号在主表存在，则返回最多2层关系&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="10" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0gbHEz_NFwT0j6BnbrYF-38" target="0gbHEz_NFwT0j6BnbrYF-44">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-38" value="按客户号+渠道查询客户一级关系表M_ECIF_CUSTOMER_RELATIONSHIP&lt;br&gt;&lt;div&gt;，得到一级关系,按更新时间倒序&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="525" y="480" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0gbHEz_NFwT0j6BnbrYF-44" target="0gbHEz_NFwT0j6BnbrYF-57">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-44" value="是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="690" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0gbHEz_NFwT0j6BnbrYF-44" target="0gbHEz_NFwT0j6BnbrYF-16">
+        <mxCell id="0gbHEz_NFwT0j6BnbrYF-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.471;exitY=1.05;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="hZTtHso7ro3uRM3fl3jT-10" target="0gbHEz_NFwT0j6BnbrYF-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="860" as="sourcePoint" />
+            <mxPoint x="570" y="920" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-47" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0gbHEz_NFwT0j6BnbrYF-46">
-          <mxGeometry x="0.1062" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0gbHEz_NFwT0j6BnbrYF-57" target="0gbHEz_NFwT0j6BnbrYF-38">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="750" y="770" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-62" value="循环初始化2级关系" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0gbHEz_NFwT0j6BnbrYF-60">
-          <mxGeometry x="-0.0929" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0gbHEz_NFwT0j6BnbrYF-57" target="0gbHEz_NFwT0j6BnbrYF-16">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-64" value="循环初始化2层客户最新信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0gbHEz_NFwT0j6BnbrYF-63">
           <mxGeometry x="-0.2327" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-57" value="根据关系表原始数据&lt;div&gt;组装客户1级关系网数据&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="890" width="180" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="hZTtHso7ro3uRM3fl3jT-1" value="查询主客户号" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hZTtHso7ro3uRM3fl3jT-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hZTtHso7ro3uRM3fl3jT-6" target="hZTtHso7ro3uRM3fl3jT-8">
+        <mxCell id="hZTtHso7ro3uRM3fl3jT-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hZTtHso7ro3uRM3fl3jT-6" target="hZTtHso7ro3uRM3fl3jT-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hZTtHso7ro3uRM3fl3jT-6" value="存在关系" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="470" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hZTtHso7ro3uRM3fl3jT-8" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E7%9B%B4%E6%8E%A5%E9%80%9A%E8%BF%87%E5%AE%A2%E6%88%B7%E5%8F%B7%E5%88%97%E8%A1%A8%2B%E6%B8%A0%E9%81%93%E6%9F%A5%E8%AF%A2%E5%AE%A2%E6%88%B7%E5%85%B3%E7%B3%BB%E8%A1%A8%26lt%3Bdiv%26gt%3BM_ECIF_CUSTOMER_RELATIONSHIP%26lt%3Bbr%26gt%3B%26lt%3Bdiv%26gt%3B%EF%BC%8C%E5%BE%97%E5%88%B01%E7%BA%A7%E5%85%B3%E7%B3%BB%2C%E6%8C%89%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E5%80%92%E5%BA%8F%26lt%3B%2Fdiv%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22285%22%20y%3D%22340%22%20width%3D%22230%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="640" width="120" height="60" as="geometry" />
+        <mxCell id="hZTtHso7ro3uRM3fl3jT-10" value="直接通过客户号列表+渠道查询客户关系表&lt;div&gt;M_ECIF_CUSTOMER_RELATIONSHIP&lt;br&gt;&lt;div&gt;，得到2级关系,按更新时间倒序&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="585" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
