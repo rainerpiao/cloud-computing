@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T03:40:13.297Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="_cbCZX0_K5j2YgZb6IMF" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T03:41:51.587Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-_bc36zPw-GyndS1U28Q" version="24.0.7" type="github">
   <diagram name="第 1 页" id="C5rFHaonQaUm8R1daILY">
     <mxGraphModel dx="1194" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,8 +35,8 @@
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-5" value="是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="330" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-7" value="直接通过客户号+渠道查询客户关系表，得到一级关系" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="340" width="120" height="60" as="geometry" />
+        <mxCell id="0gbHEz_NFwT0j6BnbrYF-7" value="直接通过客户号+渠道查询客户关系表&lt;div&gt;M_ECIF_CUSTOMER_RELATIONSHIP&lt;br&gt;&lt;div&gt;，得到一级关系&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="340" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-9" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="340" width="120" height="60" as="geometry" />
