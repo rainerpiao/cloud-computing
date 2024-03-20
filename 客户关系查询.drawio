@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T05:39:42.252Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="lTozh2unQPCnMnmZ5zp5" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T05:51:04.162Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="dNJ5_fUpJUzfKqytUbRv" version="24.0.7" type="github">
   <diagram name="第 1 页" id="C5rFHaonQaUm8R1daILY">
     <mxGraphModel dx="1194" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0gbHEz_NFwT0j6BnbrYF-7" target="0gbHEz_NFwT0j6BnbrYF-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-7" value="直接通过客户号+渠道查询客户关系表&lt;div&gt;M_ECIF_CUSTOMER_RELATIONSHIP&lt;br&gt;&lt;div&gt;，得到一级关系&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0gbHEz_NFwT0j6BnbrYF-7" value="直接通过客户号+渠道查询客户关系表&lt;div&gt;M_ECIF_CUSTOMER_RELATIONSHIP&lt;br&gt;&lt;div&gt;，得到一级关系,按更新时间倒序&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="340" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-9" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -69,8 +69,8 @@
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-16" value="查询客户主客户号&lt;div&gt;customer_ecif_no_relationship&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="480" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0gbHEz_NFwT0j6BnbrYF-19" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="55" y="640" width="120" height="60" as="geometry" />
+        <mxCell id="0gbHEz_NFwT0j6BnbrYF-19" value="根据关系表原始数据&lt;div&gt;组装客户一级关系网数据&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="640" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0gbHEz_NFwT0j6BnbrYF-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0gbHEz_NFwT0j6BnbrYF-22" target="0gbHEz_NFwT0j6BnbrYF-28">
           <mxGeometry relative="1" as="geometry" />
