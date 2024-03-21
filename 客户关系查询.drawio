@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T01:15:17.787Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Naa1_OrJ9EJKK6v39EjH" version="24.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-21T01:23:40.103Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="_a4wzLIzYcCcx7yanOHs" version="24.0.7" type="github" pages="2">
   <diagram name="客户号查询" id="C5rFHaonQaUm8R1daILY">
     <mxGraphModel dx="1194" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -152,7 +152,7 @@
         <mxCell id="JwIgHP2fCU5Stgttk4BV-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="JwIgHP2fCU5Stgttk4BV-1" source="JwIgHP2fCU5Stgttk4BV-12" target="JwIgHP2fCU5Stgttk4BV-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JwIgHP2fCU5Stgttk4BV-12" value="直接通过客户号+渠道查询客户关系表&lt;div&gt;M_ECIF_CUSTOMER_RELATIONSHIP&lt;br&gt;&lt;div&gt;，得到1级关系,按更新时间倒序&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="JwIgHP2fCU5Stgttk4BV-1" vertex="1">
+        <mxCell id="JwIgHP2fCU5Stgttk4BV-12" value="直接通过渠道+客户五项查询客户关系表&lt;div&gt;M_ECIF_CUSTOMER_RELATIONSHIP&lt;br&gt;&lt;div&gt;，得到1级关系,按更新时间倒序&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="JwIgHP2fCU5Stgttk4BV-1" vertex="1">
           <mxGeometry x="10" y="340" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JwIgHP2fCU5Stgttk4BV-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="JwIgHP2fCU5Stgttk4BV-1" source="JwIgHP2fCU5Stgttk4BV-15" target="JwIgHP2fCU5Stgttk4BV-33" edge="1">
