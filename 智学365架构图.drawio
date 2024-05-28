@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T07:32:21.398Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="SzRdxoNHiEMgIDKSPlgz" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-28T07:35:20.011Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="0K1B229MKXtyIJUDVOYY" version="24.4.9" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2021" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,10 +50,10 @@
         <mxCell id="grso16V_VAuLWdVkUhK_-17" value="INTERNET" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="555" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="grso16V_VAuLWdVkUhK_-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="grso16V_VAuLWdVkUhK_-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="262.5" y="100" width="577.5" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="grso16V_VAuLWdVkUhK_-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="grso16V_VAuLWdVkUhK_-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="262.5" y="-90" width="577.5" height="150" as="geometry" />
         </mxCell>
         <mxCell id="grso16V_VAuLWdVkUhK_-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="grso16V_VAuLWdVkUhK_-27" target="grso16V_VAuLWdVkUhK_-29">
@@ -146,10 +146,10 @@
         <mxCell id="grso16V_VAuLWdVkUhK_-32" value="LEC-&lt;span style=&quot;background-color: initial;&quot;&gt;REDIS&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="503" y="110" width="107" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="grso16V_VAuLWdVkUhK_-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="948" y="105" width="772" height="430" as="geometry" />
+        <mxCell id="grso16V_VAuLWdVkUhK_-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="948" y="120" width="772" height="415" as="geometry" />
         </mxCell>
-        <mxCell id="grso16V_VAuLWdVkUhK_-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="grso16V_VAuLWdVkUhK_-36" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="945.5" y="-145" width="834.5" height="150" as="geometry" />
         </mxCell>
         <mxCell id="grso16V_VAuLWdVkUhK_-33" value="101318-IAS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -208,7 +208,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="grso16V_VAuLWdVkUhK_-48" value="LEC-EBOOK-FRONT-NG" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="grso16V_VAuLWdVkUhK_-48" value="LEC-EBOOK-FRONT-NG" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="299" y="525" width="186" height="30" as="geometry" />
         </mxCell>
         <mxCell id="grso16V_VAuLWdVkUhK_-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="grso16V_VAuLWdVkUhK_-49" target="grso16V_VAuLWdVkUhK_-29">
@@ -378,8 +378,18 @@
         <mxCell id="grso16V_VAuLWdVkUhK_-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="grso16V_VAuLWdVkUhK_-38" target="grso16V_VAuLWdVkUhK_-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="grso16V_VAuLWdVkUhK_-168" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="grso16V_VAuLWdVkUhK_-143">
+          <mxGeometry x="0.7344" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="grso16V_VAuLWdVkUhK_-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="grso16V_VAuLWdVkUhK_-38" target="grso16V_VAuLWdVkUhK_-141">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grso16V_VAuLWdVkUhK_-169" value="http" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="grso16V_VAuLWdVkUhK_-144">
+          <mxGeometry x="0.7764" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="grso16V_VAuLWdVkUhK_-38" value="LEC-API-JBS-APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1007" y="205" width="163" height="35" as="geometry" />
