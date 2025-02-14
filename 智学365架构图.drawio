@@ -135,6 +135,9 @@
         <mxCell id="WnLUjE5XR5GpxjCMrkqG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="grso16V_VAuLWdVkUhK_-29" target="grso16V_VAuLWdVkUhK_-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="WnLUjE5XR5GpxjCMrkqG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="grso16V_VAuLWdVkUhK_-29" target="WnLUjE5XR5GpxjCMrkqG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="grso16V_VAuLWdVkUhK_-29" value="LEC-AUTH-JAR-APP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="263" width="160" height="30" as="geometry" />
         </mxCell>
@@ -397,7 +400,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="grso16V_VAuLWdVkUhK_-39" value="LEC-SEARCH-JAR-APP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1074" y="572" width="186" height="30" as="geometry" />
+          <mxGeometry x="1078" y="488" width="186" height="30" as="geometry" />
         </mxCell>
         <mxCell id="grso16V_VAuLWdVkUhK_-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="grso16V_VAuLWdVkUhK_-29" target="grso16V_VAuLWdVkUhK_-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -533,6 +536,24 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1167" y="230" as="sourcePoint" />
             <mxPoint x="1217" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnLUjE5XR5GpxjCMrkqG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="WnLUjE5XR5GpxjCMrkqG-10" target="grso16V_VAuLWdVkUhK_-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WnLUjE5XR5GpxjCMrkqG-10" value="LEC-MAGAZINE-DESIGNER-FRONT-NG" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="300" y="568" width="186" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WnLUjE5XR5GpxjCMrkqG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="WnLUjE5XR5GpxjCMrkqG-11" target="grso16V_VAuLWdVkUhK_-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WnLUjE5XR5GpxjCMrkqG-11" value="LEC-MAGAZINE-JAR-APP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1078" y="558" width="186" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WnLUjE5XR5GpxjCMrkqG-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="WnLUjE5XR5GpxjCMrkqG-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="136" y="274" as="sourcePoint" />
+            <mxPoint x="463" y="339" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
