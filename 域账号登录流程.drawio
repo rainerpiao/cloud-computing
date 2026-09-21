@@ -173,7 +173,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="手机号登录流程" id="ylnGvOE0MKohoYuMTQsF">
-    <mxGraphModel dx="1118" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="810" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-0" />
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-1" parent="x-TeyqCV3AmaFNVyd8sp-0" />
@@ -196,6 +196,9 @@
         </mxCell>
         <mxCell id="YW_p_Ueus36BIj_QgYT6-7" parent="x-TeyqCV3AmaFNVyd8sp-3" style="rounded=1;whiteSpace=wrap;html=1;" value="获取验证码" vertex="1">
           <mxGeometry height="30" width="80" x="10" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nj9sXV_EfxMkuI9vMHFG-4" parent="x-TeyqCV3AmaFNVyd8sp-3" style="rounded=1;whiteSpace=wrap;html=1;" value="输入验证码登录" vertex="1">
+          <mxGeometry height="30" width="120" x="5" y="250" as="geometry" />
         </mxCell>
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-10" edge="1" parent="x-TeyqCV3AmaFNVyd8sp-2" source="YW_p_Ueus36BIj_QgYT6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="x-TeyqCV3AmaFNVyd8sp-25" value="">
           <mxGeometry relative="1" as="geometry">
@@ -224,8 +227,17 @@
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-24" parent="x-TeyqCV3AmaFNVyd8sp-19" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="存在未锁定的手机号" vertex="1">
           <mxGeometry height="80" width="80" x="35" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="x-TeyqCV3AmaFNVyd8sp-25" parent="x-TeyqCV3AmaFNVyd8sp-19" style="rounded=1;whiteSpace=wrap;html=1;" value="发送短信" vertex="1">
+        <mxCell id="x-TeyqCV3AmaFNVyd8sp-25" parent="x-TeyqCV3AmaFNVyd8sp-19" style="rounded=1;whiteSpace=wrap;html=1;" value="验证手机号" vertex="1">
           <mxGeometry height="30" width="90" x="30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nj9sXV_EfxMkuI9vMHFG-10" edge="1" parent="x-TeyqCV3AmaFNVyd8sp-19" source="nj9sXV_EfxMkuI9vMHFG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nj9sXV_EfxMkuI9vMHFG-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nj9sXV_EfxMkuI9vMHFG-5" parent="x-TeyqCV3AmaFNVyd8sp-19" style="rounded=1;whiteSpace=wrap;html=1;" value="验证手机号" vertex="1">
+          <mxGeometry height="30" width="120" x="30" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="nj9sXV_EfxMkuI9vMHFG-9" parent="x-TeyqCV3AmaFNVyd8sp-19" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="存在未锁定的手机号" vertex="1">
+          <mxGeometry height="80" width="80" x="50" y="320" as="geometry" />
         </mxCell>
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-36" parent="x-TeyqCV3AmaFNVyd8sp-2" style="swimlane;startSize=20;" value="core" vertex="1">
           <mxGeometry height="860" width="160" x="325" as="geometry" />
@@ -233,11 +245,20 @@
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-37" parent="x-TeyqCV3AmaFNVyd8sp-36" style="rounded=1;whiteSpace=wrap;html=1;" value="查询手机号信息" vertex="1">
           <mxGeometry height="30" width="90" x="39" y="60" as="geometry" />
         </mxCell>
+        <mxCell id="nj9sXV_EfxMkuI9vMHFG-6" parent="x-TeyqCV3AmaFNVyd8sp-36" style="rounded=1;whiteSpace=wrap;html=1;" value="查询手机号信息" vertex="1">
+          <mxGeometry height="30" width="90" x="45" y="250" as="geometry" />
+        </mxCell>
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-40" parent="x-TeyqCV3AmaFNVyd8sp-2" style="swimlane;startSize=20;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="ias" vertex="1">
           <mxGeometry height="860" width="175" x="485" as="geometry" />
         </mxCell>
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-41" parent="x-TeyqCV3AmaFNVyd8sp-40" style="rounded=1;whiteSpace=wrap;html=1;" value="发送短信" vertex="1">
           <mxGeometry height="30" width="90" x="25" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="nj9sXV_EfxMkuI9vMHFG-11" parent="x-TeyqCV3AmaFNVyd8sp-40" style="rounded=1;whiteSpace=wrap;html=1;" value="注册新账号" vertex="1">
+          <mxGeometry height="30" width="90" x="42.5" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nj9sXV_EfxMkuI9vMHFG-12" parent="x-TeyqCV3AmaFNVyd8sp-40" style="rounded=1;whiteSpace=wrap;html=1;" value="验证短信码" vertex="1">
+          <mxGeometry height="30" width="90" x="42.5" y="380" as="geometry" />
         </mxCell>
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-43" edge="1" parent="x-TeyqCV3AmaFNVyd8sp-2" source="x-TeyqCV3AmaFNVyd8sp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="x-TeyqCV3AmaFNVyd8sp-37">
           <mxGeometry relative="1" as="geometry">
@@ -254,6 +275,28 @@
         </mxCell>
         <mxCell id="nj9sXV_EfxMkuI9vMHFG-1" connectable="0" parent="nj9sXV_EfxMkuI9vMHFG-0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="存在" vertex="1">
           <mxGeometry relative="1" x="-0.2043" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nj9sXV_EfxMkuI9vMHFG-7" edge="1" parent="x-TeyqCV3AmaFNVyd8sp-2" source="nj9sXV_EfxMkuI9vMHFG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nj9sXV_EfxMkuI9vMHFG-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nj9sXV_EfxMkuI9vMHFG-8" edge="1" parent="x-TeyqCV3AmaFNVyd8sp-2" source="nj9sXV_EfxMkuI9vMHFG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nj9sXV_EfxMkuI9vMHFG-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nj9sXV_EfxMkuI9vMHFG-13" edge="1" parent="x-TeyqCV3AmaFNVyd8sp-2" source="nj9sXV_EfxMkuI9vMHFG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nj9sXV_EfxMkuI9vMHFG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nj9sXV_EfxMkuI9vMHFG-15" connectable="0" parent="nj9sXV_EfxMkuI9vMHFG-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="账号未激活" vertex="1">
+          <mxGeometry relative="1" x="0.5857" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nj9sXV_EfxMkuI9vMHFG-14" edge="1" parent="x-TeyqCV3AmaFNVyd8sp-2" source="nj9sXV_EfxMkuI9vMHFG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nj9sXV_EfxMkuI9vMHFG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nj9sXV_EfxMkuI9vMHFG-16" connectable="0" parent="nj9sXV_EfxMkuI9vMHFG-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="账号已激活" vertex="1">
+          <mxGeometry relative="1" x="0.5514" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
