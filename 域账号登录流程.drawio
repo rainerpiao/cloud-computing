@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="账号登录流程" id="Rq4-FnZC5ojvCoAFeGFf">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="870" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,6 +26,9 @@
         </mxCell>
         <mxCell id="n9ZZEtsTT-hg7lC3mMr8-106" parent="n9ZZEtsTT-hg7lC3mMr8-5" style="rounded=0;whiteSpace=wrap;html=1;" value="B17确认更新手机号" vertex="1">
           <mxGeometry height="20" width="120" x="2.5" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="RQHzHmGYUsdThTS4iTpx-1" parent="n9ZZEtsTT-hg7lC3mMr8-5" style="rounded=0;whiteSpace=wrap;html=1;" value="A01成功" vertex="1">
+          <mxGeometry height="20" width="100" x="10" y="605" as="geometry" />
         </mxCell>
         <mxCell id="n9ZZEtsTT-hg7lC3mMr8-16" edge="1" parent="n9ZZEtsTT-hg7lC3mMr8-1" source="n9ZZEtsTT-hg7lC3mMr8-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n9ZZEtsTT-hg7lC3mMr8-32" value="">
           <mxGeometry relative="1" as="geometry">
@@ -163,11 +166,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="RQHzHmGYUsdThTS4iTpx-2" edge="1" parent="n9ZZEtsTT-hg7lC3mMr8-1" source="XhSmUqAjWQYYvDDjEnix-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="RQHzHmGYUsdThTS4iTpx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="微信登录流程" id="LQnaUhbIO0EcDT7tJ4tm">
-    <mxGraphModel dx="783" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-0" />
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-1" parent="u3nBvAHYPzV1lTnuGqQ0-0" />
