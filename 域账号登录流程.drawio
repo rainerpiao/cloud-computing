@@ -172,12 +172,12 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="小程序登录流程" id="LQnaUhbIO0EcDT7tJ4tm">
+  <diagram name="微信登录流程" id="LQnaUhbIO0EcDT7tJ4tm">
     <mxGraphModel dx="783" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-0" />
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-1" parent="u3nBvAHYPzV1lTnuGqQ0-0" />
-        <mxCell id="u3nBvAHYPzV1lTnuGqQ0-2" parent="u3nBvAHYPzV1lTnuGqQ0-1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;fixedHeader=0;" value="小程序登录" vertex="1">
+        <mxCell id="u3nBvAHYPzV1lTnuGqQ0-2" parent="u3nBvAHYPzV1lTnuGqQ0-1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;fixedHeader=0;" value="微信登录" vertex="1">
           <mxGeometry height="860" width="960" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-3" parent="u3nBvAHYPzV1lTnuGqQ0-2" style="swimlane;startSize=20;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" value="用户" vertex="1">
