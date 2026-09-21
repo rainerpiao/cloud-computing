@@ -304,15 +304,15 @@
     </mxGraphModel>
   </diagram>
   <diagram name="微信登录流程" id="LQnaUhbIO0EcDT7tJ4tm">
-    <mxGraphModel dx="783" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-0" />
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-1" parent="u3nBvAHYPzV1lTnuGqQ0-0" />
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-2" parent="u3nBvAHYPzV1lTnuGqQ0-1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;fixedHeader=0;" value="微信登录" vertex="1">
-          <mxGeometry height="860" width="960" x="10" y="30" as="geometry" />
+          <mxGeometry height="890" width="835" x="10" y="30" as="geometry" />
         </mxCell>
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-3" parent="u3nBvAHYPzV1lTnuGqQ0-2" style="swimlane;startSize=20;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" value="用户" vertex="1">
-          <mxGeometry height="860" width="125" x="20" as="geometry">
+          <mxGeometry height="890" width="125" x="20" as="geometry">
             <mxRectangle height="480" width="40" x="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -328,7 +328,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-18" parent="u3nBvAHYPzV1lTnuGqQ0-2" style="swimlane;startSize=20;" value="auth" vertex="1">
-          <mxGeometry height="860" width="480" x="145" as="geometry" />
+          <mxGeometry height="890" width="690" x="145" as="geometry" />
         </mxCell>
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-19" edge="1" parent="u3nBvAHYPzV1lTnuGqQ0-18" source="u3nBvAHYPzV1lTnuGqQ0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="u3nBvAHYPzV1lTnuGqQ0-30" value="">
           <mxGeometry relative="1" as="geometry">
@@ -396,18 +396,18 @@
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-30" parent="u3nBvAHYPzV1lTnuGqQ0-18" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="检查ias状态" vertex="1">
           <mxGeometry height="80" width="80" x="35" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="u3nBvAHYPzV1lTnuGqQ0-35" parent="u3nBvAHYPzV1lTnuGqQ0-2" style="swimlane;startSize=20;" value="core" vertex="1">
-          <mxGeometry height="860" width="160" x="625" as="geometry" />
+        <mxCell id="u3nBvAHYPzV1lTnuGqQ0-35" parent="u3nBvAHYPzV1lTnuGqQ0-18" style="swimlane;startSize=20;" value="core" vertex="1">
+          <mxGeometry height="890" width="435" x="255" as="geometry" />
         </mxCell>
-        <mxCell id="u3nBvAHYPzV1lTnuGqQ0-39" parent="u3nBvAHYPzV1lTnuGqQ0-2" style="swimlane;startSize=20;" value="ias" vertex="1">
-          <mxGeometry height="860" width="175" x="785" as="geometry" />
+        <mxCell id="u3nBvAHYPzV1lTnuGqQ0-39" parent="u3nBvAHYPzV1lTnuGqQ0-35" style="swimlane;startSize=20;" value="ias" vertex="1">
+          <mxGeometry height="890" width="175" x="260" as="geometry" />
         </mxCell>
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-36" parent="u3nBvAHYPzV1lTnuGqQ0-39" style="rounded=1;whiteSpace=wrap;html=1;" value="小程序的登录认证" vertex="1">
           <mxGeometry height="30" width="90" x="55" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="u3nBvAHYPzV1lTnuGqQ0-42" edge="1" parent="u3nBvAHYPzV1lTnuGqQ0-2" source="u3nBvAHYPzV1lTnuGqQ0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="u3nBvAHYPzV1lTnuGqQ0-36">
+        <mxCell id="u3nBvAHYPzV1lTnuGqQ0-42" edge="1" parent="u3nBvAHYPzV1lTnuGqQ0-18" source="u3nBvAHYPzV1lTnuGqQ0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="u3nBvAHYPzV1lTnuGqQ0-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="365" y="75" as="targetPoint" />
+            <mxPoint x="220" y="75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-43" connectable="0" parent="u3nBvAHYPzV1lTnuGqQ0-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="认证" vertex="1">
