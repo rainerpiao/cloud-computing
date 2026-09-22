@@ -727,7 +727,7 @@
           <mxGeometry height="44" width="90" x="62" y="43" as="geometry" />
         </mxCell>
         <mxCell id="DI2Ofn6MaHxkmWiLnQp_-3" parent="ZJXATcVUqgFCiCfWmVvo-38" style="rounded=1;whiteSpace=wrap;html=1;" value="绑定账号和手机" vertex="1">
-          <mxGeometry height="60" width="135" x="27" y="366" as="geometry" />
+          <mxGeometry height="60" width="135" x="27" y="368" as="geometry" />
         </mxCell>
         <mxCell id="ZJXATcVUqgFCiCfWmVvo-55" edge="1" parent="ZJXATcVUqgFCiCfWmVvo-2" source="ZJXATcVUqgFCiCfWmVvo-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZJXATcVUqgFCiCfWmVvo-37" value="">
           <mxGeometry relative="1" as="geometry" />
