@@ -173,7 +173,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="手机号登录流程" id="ylnGvOE0MKohoYuMTQsF">
-    <mxGraphModel dx="1174" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-0" />
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-1" parent="x-TeyqCV3AmaFNVyd8sp-0" />
@@ -373,11 +373,11 @@
     </mxGraphModel>
   </diagram>
   <diagram name="微信登录流程" id="LQnaUhbIO0EcDT7tJ4tm">
-    <mxGraphModel dx="1468" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1067" dy="634" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-0" />
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-1" parent="u3nBvAHYPzV1lTnuGqQ0-0" />
-        <mxCell id="u3nBvAHYPzV1lTnuGqQ0-2" parent="u3nBvAHYPzV1lTnuGqQ0-1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;fixedHeader=0;" value="微信登录" vertex="1">
+        <mxCell id="u3nBvAHYPzV1lTnuGqQ0-2" parent="u3nBvAHYPzV1lTnuGqQ0-1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;fixedHeader=0;dashed=1;" value="微信登录" vertex="1">
           <mxGeometry height="1170" width="775" as="geometry" />
         </mxCell>
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-3" parent="u3nBvAHYPzV1lTnuGqQ0-2" style="swimlane;startSize=20;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" value="用户" vertex="1">
@@ -455,14 +455,19 @@
         <mxCell id="mMFstldcYzbZWBip4CLM-14" edge="1" parent="u3nBvAHYPzV1lTnuGqQ0-18" source="mMFstldcYzbZWBip4CLM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u3nBvAHYPzV1lTnuGqQ0-33" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mMFstldcYzbZWBip4CLM-8" parent="u3nBvAHYPzV1lTnuGqQ0-18" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="IAS存在手机号" vertex="1">
-          <mxGeometry height="80" width="80" x="59" y="370" as="geometry" />
+        <mxCell id="y2Vf_8Mu72kAJASnTngH-0" connectable="0" parent="mMFstldcYzbZWBip4CLM-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="存在" vertex="1">
+          <mxGeometry relative="1" x="-0.0875" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mMFstldcYzbZWBip4CLM-8" parent="u3nBvAHYPzV1lTnuGqQ0-18" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#f8cecc;strokeColor=#b85450;" value="365是否存在该手机号" vertex="1">
+          <mxGeometry height="80" width="90" x="54" y="370" as="geometry" />
         </mxCell>
         <mxCell id="qSAYc1q4FbOtZtr56uNd-27" parent="u3nBvAHYPzV1lTnuGqQ0-2" style="swimlane;startSize=20;" value="core" vertex="1">
           <mxGeometry height="1170" width="180" x="415" as="geometry" />
         </mxCell>
-        <mxCell id="qSAYc1q4FbOtZtr56uNd-58" parent="qSAYc1q4FbOtZtr56uNd-27" style="rounded=1;whiteSpace=wrap;html=1;" value="通过手机获取用户信息" vertex="1">
-          <mxGeometry height="30" width="135" x="25" y="395" as="geometry" />
+        <mxCell id="qSAYc1q4FbOtZtr56uNd-58" parent="qSAYc1q4FbOtZtr56uNd-27" style="rounded=1;whiteSpace=wrap;html=1;" value="通过微信绑定手机&lt;div&gt;获取用户信息&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="145" x="25" y="395" as="geometry" />
         </mxCell>
         <mxCell id="mMFstldcYzbZWBip4CLM-17" parent="qSAYc1q4FbOtZtr56uNd-27" style="rounded=1;whiteSpace=wrap;html=1;" value="自动绑定用户与iasId" vertex="1">
           <mxGeometry height="30" width="135" x="25" y="531.5" as="geometry" />
@@ -501,12 +506,7 @@
             <mxPoint x="320" y="410" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mMFstldcYzbZWBip4CLM-12" connectable="0" parent="mMFstldcYzbZWBip4CLM-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="存在" vertex="1">
-          <mxGeometry relative="1" x="-0.0038" y="-1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mMFstldcYzbZWBip4CLM-3" parent="u3nBvAHYPzV1lTnuGqQ0-2" style="swimlane;startSize=20;" value="ias" vertex="1">
+        <mxCell id="mMFstldcYzbZWBip4CLM-3" parent="u3nBvAHYPzV1lTnuGqQ0-2" style="swimlane;startSize=20;swimlaneLine=1;" value="ias" vertex="1">
           <mxGeometry height="1170" width="180" x="595" as="geometry" />
         </mxCell>
         <mxCell id="qSAYc1q4FbOtZtr56uNd-51" parent="mMFstldcYzbZWBip4CLM-3" style="rounded=1;whiteSpace=wrap;html=1;" value="小程序登录认证" vertex="1">
