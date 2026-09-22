@@ -60,6 +60,17 @@
         <mxCell id="hTwlcrm8MZsUgteeSCMi-1" parent="n9ZZEtsTT-hg7lC3mMr8-5" style="rounded=0;whiteSpace=wrap;html=1;" value="A01成功" vertex="1">
           <mxGeometry height="20" width="100" x="50.5" y="1060" as="geometry" />
         </mxCell>
+        <mxCell id="n9ZZEtsTT-hg7lC3mMr8-95" edge="1" parent="n9ZZEtsTT-hg7lC3mMr8-1" source="Ou6w9Jf9V0b8Hibe_qOU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UJdyVKS4KIG3i60RFc_L-43" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="465" as="sourcePoint" />
+            <mxPoint x="500" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ou6w9Jf9V0b8Hibe_qOU-2" connectable="0" parent="n9ZZEtsTT-hg7lC3mMr8-95" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="UID" vertex="1">
+          <mxGeometry relative="1" x="-0.0037" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="n9ZZEtsTT-hg7lC3mMr8-3" parent="n9ZZEtsTT-hg7lC3mMr8-1" style="swimlane;startSize=20;" value="auth" vertex="1">
           <mxGeometry height="1150" width="219" x="221" as="geometry" />
         </mxCell>
@@ -137,24 +148,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h9Z_xryLe9LnH63xmQSf-7" parent="n9ZZEtsTT-hg7lC3mMr8-3" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="检查用户是否绑定iasId" vertex="1">
-          <mxGeometry height="87" width="115" x="52" y="876" as="geometry" />
+          <mxGeometry height="87" width="115" x="49.5" y="876" as="geometry" />
         </mxCell>
         <mxCell id="h9Z_xryLe9LnH63xmQSf-8" parent="n9ZZEtsTT-hg7lC3mMr8-3" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="登录成功" vertex="1">
           <mxGeometry height="70" width="120" x="49.5" y="1036" as="geometry" />
         </mxCell>
-        <mxCell id="49gAdZ2oafkBXy7jgrYo-3" parent="n9ZZEtsTT-hg7lC3mMr8-3" style="rounded=1;whiteSpace=wrap;html=1;" value="更新用户信息" vertex="1">
-          <mxGeometry height="46" width="120" x="49" y="764" as="geometry" />
-        </mxCell>
-        <mxCell id="n9ZZEtsTT-hg7lC3mMr8-95" edge="1" parent="n9ZZEtsTT-hg7lC3mMr8-1" source="Ou6w9Jf9V0b8Hibe_qOU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UJdyVKS4KIG3i60RFc_L-43" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="465" as="sourcePoint" />
-            <mxPoint x="500" y="490" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ou6w9Jf9V0b8Hibe_qOU-2" connectable="0" parent="n9ZZEtsTT-hg7lC3mMr8-95" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="UID" vertex="1">
-          <mxGeometry relative="1" x="-0.0037" y="-2" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="49gAdZ2oafkBXy7jgrYo-3" parent="n9ZZEtsTT-hg7lC3mMr8-3" style="rounded=1;whiteSpace=wrap;html=1;" value="查询iasUid关联用户信息" vertex="1">
+          <mxGeometry height="46" width="139" x="38" y="764" as="geometry" />
         </mxCell>
         <mxCell id="UJdyVKS4KIG3i60RFc_L-1" parent="n9ZZEtsTT-hg7lC3mMr8-1" style="swimlane;startSize=20;" value="core" vertex="1">
           <mxGeometry height="1150" width="184" x="440" as="geometry" />
