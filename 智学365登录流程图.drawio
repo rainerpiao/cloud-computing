@@ -173,7 +173,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="手机号登录流程" id="ylnGvOE0MKohoYuMTQsF">
-    <mxGraphModel dx="1174" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1174" dy="697" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-0" />
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-1" parent="x-TeyqCV3AmaFNVyd8sp-0" />
@@ -242,7 +242,7 @@
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-20" edge="1" parent="x-TeyqCV3AmaFNVyd8sp-19" source="x-TeyqCV3AmaFNVyd8sp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="x-TeyqCV3AmaFNVyd8sp-24" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x-TeyqCV3AmaFNVyd8sp-24" parent="x-TeyqCV3AmaFNVyd8sp-19" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="存在未锁定的手机号" vertex="1">
+        <mxCell id="x-TeyqCV3AmaFNVyd8sp-24" parent="x-TeyqCV3AmaFNVyd8sp-19" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#f8cecc;strokeColor=#b85450;" value="存在未锁定的手机号" vertex="1">
           <mxGeometry height="80" width="100" x="55" y="155" as="geometry" />
         </mxCell>
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-25" parent="x-TeyqCV3AmaFNVyd8sp-19" style="rounded=1;whiteSpace=wrap;html=1;" value="验证手机号" vertex="1">
@@ -257,7 +257,7 @@
         <mxCell id="AIFr2ExefvIdrJKUoOLB-0" edge="1" parent="x-TeyqCV3AmaFNVyd8sp-19" source="nj9sXV_EfxMkuI9vMHFG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EGHQ51NhkU3EGZw4sJZ6-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nj9sXV_EfxMkuI9vMHFG-9" parent="x-TeyqCV3AmaFNVyd8sp-19" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="存在未锁定的手机号" vertex="1">
+        <mxCell id="nj9sXV_EfxMkuI9vMHFG-9" parent="x-TeyqCV3AmaFNVyd8sp-19" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#f8cecc;strokeColor=#b85450;" value="存在未锁定的手机号" vertex="1">
           <mxGeometry height="80" width="114" x="47" y="344" as="geometry" />
         </mxCell>
         <mxCell id="uVRPojTl556u5DyhDEnk-9" edge="1" parent="x-TeyqCV3AmaFNVyd8sp-19" source="EGHQ51NhkU3EGZw4sJZ6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uVRPojTl556u5DyhDEnk-4" value="">
