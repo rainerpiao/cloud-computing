@@ -377,7 +377,7 @@
       <root>
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-0" />
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-1" parent="u3nBvAHYPzV1lTnuGqQ0-0" />
-        <mxCell id="u3nBvAHYPzV1lTnuGqQ0-2" parent="u3nBvAHYPzV1lTnuGqQ0-1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;fixedHeader=0;dashed=1;" value="微信登录" vertex="1">
+        <mxCell id="u3nBvAHYPzV1lTnuGqQ0-2" parent="u3nBvAHYPzV1lTnuGqQ0-1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;fixedHeader=0;" value="微信登录" vertex="1">
           <mxGeometry height="1170" width="775" as="geometry" />
         </mxCell>
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-3" parent="u3nBvAHYPzV1lTnuGqQ0-2" style="swimlane;startSize=20;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;" value="用户" vertex="1">
