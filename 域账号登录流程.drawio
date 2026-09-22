@@ -251,7 +251,7 @@
         <mxCell id="x-TeyqCV3AmaFNVyd8sp-40" parent="x-TeyqCV3AmaFNVyd8sp-2" style="swimlane;startSize=20;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="ias" vertex="1">
           <mxGeometry height="860" width="175" x="485" as="geometry" />
         </mxCell>
-        <mxCell id="x-TeyqCV3AmaFNVyd8sp-41" parent="x-TeyqCV3AmaFNVyd8sp-40" style="rounded=1;whiteSpace=wrap;html=1;" value="发送短信" vertex="1">
+        <mxCell id="x-TeyqCV3AmaFNVyd8sp-41" parent="x-TeyqCV3AmaFNVyd8sp-40" style="rounded=1;whiteSpace=wrap;html=1;" value="触发发送短信" vertex="1">
           <mxGeometry height="30" width="90" x="25" y="175" as="geometry" />
         </mxCell>
         <mxCell id="nj9sXV_EfxMkuI9vMHFG-11" parent="x-TeyqCV3AmaFNVyd8sp-40" style="rounded=1;whiteSpace=wrap;html=1;" value="注册新账号" vertex="1">
