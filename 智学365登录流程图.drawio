@@ -443,7 +443,7 @@
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-6" parent="u3nBvAHYPzV1lTnuGqQ0-3" style="whiteSpace=wrap;html=1;" value="B08认证失败" vertex="1">
           <mxGeometry height="20" width="100" x="40" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="u3nBvAHYPzV1lTnuGqQ0-7" parent="u3nBvAHYPzV1lTnuGqQ0-3" style="rounded=0;whiteSpace=wrap;html=1;" value="B01未绑定手机号" vertex="1">
+        <mxCell id="u3nBvAHYPzV1lTnuGqQ0-7" parent="u3nBvAHYPzV1lTnuGqQ0-3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="B01未绑定手机号" vertex="1">
           <mxGeometry height="20" width="100" x="40" y="220" as="geometry" />
         </mxCell>
         <mxCell id="mMFstldcYzbZWBip4CLM-9" parent="u3nBvAHYPzV1lTnuGqQ0-3" style="whiteSpace=wrap;html=1;" value="B08认证失败" vertex="1">
