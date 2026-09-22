@@ -434,11 +434,6 @@
         <mxCell id="mMFstldcYzbZWBip4CLM-14" edge="1" parent="u3nBvAHYPzV1lTnuGqQ0-18" source="mMFstldcYzbZWBip4CLM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u3nBvAHYPzV1lTnuGqQ0-33" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mMFstldcYzbZWBip4CLM-15" connectable="0" parent="mMFstldcYzbZWBip4CLM-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="存在365用户" vertex="1">
-          <mxGeometry relative="1" x="0.0041" y="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="mMFstldcYzbZWBip4CLM-8" parent="u3nBvAHYPzV1lTnuGqQ0-18" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="IAS存在手机号" vertex="1">
           <mxGeometry height="80" width="80" x="59" y="370" as="geometry" />
         </mxCell>
@@ -448,7 +443,7 @@
         <mxCell id="qSAYc1q4FbOtZtr56uNd-58" parent="qSAYc1q4FbOtZtr56uNd-27" style="rounded=1;whiteSpace=wrap;html=1;" value="通过手机获取用户信息" vertex="1">
           <mxGeometry height="30" width="135" x="25" y="395" as="geometry" />
         </mxCell>
-        <mxCell id="mMFstldcYzbZWBip4CLM-17" parent="qSAYc1q4FbOtZtr56uNd-27" style="rounded=1;whiteSpace=wrap;html=1;" value="绑定用户与iasId" vertex="1">
+        <mxCell id="mMFstldcYzbZWBip4CLM-17" parent="qSAYc1q4FbOtZtr56uNd-27" style="rounded=1;whiteSpace=wrap;html=1;" value="自动绑定用户与iasId" vertex="1">
           <mxGeometry height="30" width="135" x="25" y="531.5" as="geometry" />
         </mxCell>
         <mxCell id="u3nBvAHYPzV1lTnuGqQ0-42" edge="1" parent="u3nBvAHYPzV1lTnuGqQ0-2" source="u3nBvAHYPzV1lTnuGqQ0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qSAYc1q4FbOtZtr56uNd-51">
